@@ -1,0 +1,8 @@
+name: CI
+"on":
+  push: null
+jobs:
+  buildx:
+    runs-on: ubuntu-latest
+    steps:
+    - run: cat /etc/os-release
