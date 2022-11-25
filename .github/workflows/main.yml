@@ -6,4 +6,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - run: cat /etc/os-release
+    - run: |
+        whoami
+        id -u
+        id -g
     - run: docker --version
