@@ -10,4 +10,5 @@ jobs:
         whoami
         id -u
         id -g
+    - run: podman --version
     - run: docker --version
