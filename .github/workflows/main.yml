@@ -2,7 +2,7 @@ name: CI
 "on":
   push: null
 jobs:
-  buildx:
+  Check Host:
     runs-on: ubuntu-latest
     steps:
     - run: cat /etc/os-release
